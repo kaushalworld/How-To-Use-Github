@@ -1,0 +1,74 @@
+Certainly! To create a new repository on GitHub, follow these steps:
+
+### Step 1: Install Git
+If you haven't already installed Git on your computer, you can download it from [git-scm.com]
+Websites:: (https://git-scm.com/)
+For Windows (https://git-scm.com/download/win)
+
+### Step 2: Create a GitHub Account
+If you don't have a GitHub account, you need to sign up at [github.com](https://github.com/).
+
+### Step 3: Create a New Repository on GitHub
+1. Log in to your GitHub account.
+2. Click on the "+" sign in the top right corner and choose "New repository."
+3. Fill in the repository name as "Your Project Name/Your Folder Name" and add a description if you want.
+4. Choose to initialize this repository with a README file.
+5. Click "Create repository."
+
+### Step 4: Clone the Repository
+Now, let's clone the repository to your local machine.
+
+```Open VS CODE 
+git clone https://github.com/your-username/How-To-Use-Github.git
+cd How-To-Use-Github
+```
+
+Replace "your-username" with your GitHub username.
+
+### Step 5: Create a Basic Project
+Create a simple project or add some files to the local repository. For example, let's create a file named `index.html`:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How-To-Use-Github</title>
+</head>
+<body>
+    <h1>Hello, GitHub!</h1>
+</body>
+</html>
+```
+
+### Step 6: Add, 
+            Commit, 
+            and 
+            Push Changes
+```IN VS TERMINAL
+git add .
+git commit -m "MESSAGE LIKE INFORMATION ABOUT YOUR LATEST WORK"
+git push origin main
+```
+
+Replace "main" with "master" if you're using an older Git version.
+
+### Step 7: Open the Repository in VS Code
+If you haven't installed Visual Studio Code, download and install it from [code.visualstudio.com](https://code.visualstudio.com/).
+
+Open VS Code and navigate to your project folder:
+
+```bash
+code .
+```
+
+### Step 8: Make Changes and Push from VS Code
+Edit the `index.html` file in VS Code. Save the changes.
+
+1. Go to the Source Control tab.
+2. Review the changes and stage them.
+3. Add a commit message and click the checkmark to commit.
+4. Click the ellipsis (...) and choose "Push" to push the changes to GitHub.
+
+That's it! You've now created a GitHub repository, cloned it to your local machine, made changes, and pushed them back to GitHub using VS Code.
