@@ -9,6 +9,9 @@ Open the command line.
 Set your username: git config --global user.name "your--username"
 Set your email address: git config --global user.email "your--githubemail"
 
+FOR CHECKING
+git config --list
+
 ### Step 2: Create a GitHub Account
 If you don't have a GitHub account, you need to sign up at [github.com](https://github.com/).
 
