@@ -79,3 +79,6 @@ Edit the `index.html` file in VS Code. Save the changes.
 4. Click the ellipsis (...) and choose "Push" to push the changes to GitHub.
 
 That's it! You've now created a GitHub repository, cloned it to your local machine, made changes, and pushed them back to GitHub using VS Code.
+
+
+BY POOJAN PATEL
